@@ -27,6 +27,7 @@ int comperator(const char **a, const char **b){
     else if(isalpha(b[0][ptrB])){
         return 1;
     }
+    //this is kind of redundent, could have just written return -1
     else if (isalpha(a[0][ptrA])){
         return -1;
     }
